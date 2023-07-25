@@ -1,0 +1,180 @@
+body {
+  padding: 10px;
+  margin: auto;
+  width: ;
+  max-width: ;
+  border: 10px solid #94ADD7 ;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  border: 1px solid #461959;
+  margin: 10px;
+  padding: 10px;
+  background-color: violet;
+  border-radius: 5px;
+}
+
+footer {
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+  background-color: violet;
+  clear: both;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+nav {
+  border: 1px solid #461959;
+  margin: 10px;
+  padding: 10px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+aside {
+  float:right;
+  width: 33%;
+  /* border: 1px solid red; */
+
+}
+
+main {
+  float: left;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none; /* */
+  font-size: 24px; /* */
+  color: #7A316F; /* */
+  border: 2px solid #461959; /* */
+  border-radius: 4px; /* */
+
+}
+
+ul {
+  list-style: none; /*removes bullet in list */
+  line-height: 1.5; /* */
+}
+
+p {
+
+  margin: 30px auto;
+  /* border: 1px solid red; */
+}
+
+figcaption {
+  padding: 9px 0;
+  font-size: 24px;
+}
+
+a:hover {
+  color: #F11A7B;
+  background-color: #3E001F;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+
+}
+
+.dog-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.main-image {
+  border: 9px solid #AED8CC;
+  height: 300px;
+  width: 300px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.main-vedio {
+  border: 9px solid #AED8CC;
+  height: 200px;
+  width: 300px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.copy-right {
+    margin: auto;
+}
+
+body {
+
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: violet;
+  color: #3E001F;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #982176;
+  color: #FFE5AD;
+}
+
+input:required {
+  border: 1px solid #3E001F;
+}
